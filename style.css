@@ -1,0 +1,561 @@
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 40px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navlogo {
+    height: 40px;
+    width: 0px;
+    /* display: flex; */
+}
+
+.logo {
+    background-image: url("Amazon_image.png");
+    background-size: contain;
+    height: 40px;
+    width: 100px;
+    margin-left: -39px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border :hover {
+    border: 2px solid rgb(241, 222, 9);
+    cursor: pointer;
+}
+
+
+/* .nav-address {
+                  color: rgb(240, 239, 243);
+                  margin-left: 110px;
+                  /* position: absolute; */
+
+
+/* display: inline-block; */
+
+
+/* font-size: 1rem;
+          height: 50px;
+          width: 10%; */
+
+
+/* margin-top: 0px; */
+
+
+/* margin-bottom: 100%; */
+
+
+/* }
+          .font-1 {
+              font-size: 15px;
+              margin-top: 10px;
+              margin-left: 217px;
+          }
+          .font-2 {
+              font-size: 26px;
+              margin-left: 114%;
+              /* margin-bottom: 80%; */
+
+
+/* }
+  .font-0 {
+      display: flex;
+      margin-top: 2px;
+      margin-left: 213px;
+      font-size: 30px;
+      border-width: 10px;
+  } */
+
+.font-1 {
+    margin-left: 15px;
+    margin-top: 1px;
+    background-image: contain;
+}
+
+.add-logo {
+    margin-left: 15px;
+    margin-top: 6px;
+    display: flex;
+    font-size: 15px;
+}
+
+.font-2 {
+    margin-left: 4px;
+    margin-top: -6px;
+    font-size: 15px;
+    background-image: contain;
+}
+
+.nav-search {
+    display: flex;
+    width: 500px;
+    height: 40px;
+}
+
+.search-input {
+    height: 35px;
+    width: 500px;
+    font-size: 1rem;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd13b;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: centre;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.language {
+    align-items: center;
+    display: flex;
+}
+
+.span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart {
+    display: flex;
+    text-align: center;
+    margin-top: 8px;
+    font-size: 25px;
+}
+
+.pannel {
+    height: 46px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: #f3f3f3;
+}
+
+.pannel-opt {
+    display: flex;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.pannel-opt:hover {
+    cursor: pointer;
+}
+
+.pannel-deals {
+    display: flex;
+    /* margin-left: 800px; */
+    text-align: end;
+    margin-left: 500px;
+    font-weight: 600;
+}
+
+.pannel-deals:hover {
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.pannel-All {
+    display: flex;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.pannel-All:hover {
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.pannel-All p {
+    margin-left: 5px;
+}
+
+.para {
+    margin-left: 18px;
+    text-decoration: solid;
+    font-weight: 600;
+}
+
+.para:hover {
+    border: 2px solid white;
+}
+
+.image {
+    height: 28rem;
+    background-size: cover;
+    z-index: 0;
+}
+
+#dekstop-images {
+    width: 100%;
+}
+
+
+/* .section-1 {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: black;
+      height: 250px;
+      width: 250px;
+      position: absolute;
+  } */
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    z-index: 1;
+    margin-top: -10%;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8,
+.box-9,
+.box-10,
+.box-11,
+.box-12 {
+    background-color: #f3f3f3;
+    /* background-image: url("box1_image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    height: 250px;
+    width: 250px;
+    /* border: 2px solid black; */
+    cursor: pointer;
+}
+
+
+/* .section-1:hover {
+    cursor: pointer;
+    border: 2px solid black;
+} */
+
+.section-1 img {
+    /* height: 250px; */
+    width: 196px;
+    object-fit: cover;
+    margin-left: 7px;
+}
+
+.section-1 img:hover {
+    cursor: pointer;
+    border: 2px solid black;
+    font-weight: 800;
+}
+
+
+/* .box-6 img {
+    height: 250px;
+    width: 250px;
+} */
+
+#mobile {
+    height: 200px;
+    width: 250px;
+    object-fit: contain;
+}
+
+#women_wear {
+    height: 200px;
+    width: 250px;
+    object-fit: contain;
+}
+
+#buds {
+    height: 201px;
+    width: 243px;
+    object-fit: contain;
+}
+
+
+/* .box-1 {
+      background-color: white;
+      height: 250px;
+      width: 272px;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: -20%;
+      position: absolute;
+      border: #0F1111;
+      margin-left: 34px;
+  } */
+
+
+/* .box-1:hover {
+      cursor: pointer;
+      border: 2px solid black;
+  }
+  
+  .box-2 {
+      background-color: white;
+      height: 250px;
+      width: 250px;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: -20%;
+      position: absolute;
+      margin-left: 28%;
+      border: #0F1111;
+  }
+  
+  .box-2:hover {
+      cursor: pointer;
+      border: 2px solid black;
+  }
+  
+  .box-3 {
+      background-color: white;
+      height: 250px;
+      width: 250px;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: -20%;
+      position: absolute;
+      margin-left: 53%;
+      border: #0F1111;
+  }
+  
+  .box-3:hover {
+      cursor: pointer;
+      border: 2px solid black;
+  }
+  
+  .box-4 {
+      background-color: white;
+      height: 250px;
+      width: 250px;
+      display: flex;
+      margin-top: -20%;
+      position: absolute;
+      margin-left: 78%;
+  }
+  
+  .box-4:hover {
+      cursor: pointer;
+      border: 2px solid black;
+  }
+  
+  .box-img {
+      height: 191px;
+      width: 238px;
+      background-size: contain;
+      margin-top: 0rem;
+      margin-bottom: 1rem;
+      background-repeat: no-repeat;
+  }
+  
+  .box-content p {
+      color: #007185;
+      font-weight: 200;
+      /* margin-left: 0px; */
+
+
+/*   
+  font-size: smaller;
+  margin-top: 0px;
+}
+.box-content h2 {
+    font-weight: 800;
+}
+.box-img2 {
+    height: 191px;
+    width: 238px;
+    background-size: contain;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+}
+.box-content2 p {
+    color: #007185;
+    font-weight: 200;
+    /* margin-left: 0px; */
+
+
+/* font-size: smaller;
+margin-top: 0px;
+
+} */
+
+
+/* .box-content2 h2 {
+    font-weight: 800;
+}
+.box-img3 {
+    height: 191px;
+    width: 238px;
+    background-size: contain;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+}
+.box-content3 p {
+    color: #007185;
+    font-weight: 200;
+    /* margin-left: 0px; */
+
+
+/*     
+    font-size: smaller;
+    margin-top: 0px;
+}
+.box-content3 h2 {
+    font-weight: 800;
+}
+.box-img4 {
+    height: 191px;
+    width: 238px;
+    background-size: contain;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    background-repeat: no-repeat;
+}
+.box-content4 p {
+    color: #007185;
+    font-weight: 200;
+    /* margin-left: 0px; */
+
+
+/*     
+    font-size: smaller;
+    margin-top: 0px;
+}
+.box-content4 h2 {
+    font-weight: 800;
+}
+.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: yellow;
+    height: 250px;
+    width: 100vw;
+    position: absolute;
+}   */
+
+.foot-pannel1 {
+    height: 40px;
+    width: 100%;
+    background-color: #222f3a;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+
+/* .foot-pannel2 {
+    justify-content: space-evenly;
+    margin-left: 5px;
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+} */
+
+.foot-2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+
+.foot-pannel2 {
+    margin-top: 20px;
+}
+
+
+/* .font-2:hover {
+    cursor: pointer;
+    border: 2px solid yellow;
+} */
+
+.foot-pannel2 h3,
+h5 {
+    padding: 6px;
+}
+
+font-pannel2 h3,
+h5:hover {
+    cursor: pointer;
+    border: 2px solid yellow;
+}
+
+.foot-pannel2 h3 {
+    text-decoration: underline;
+}
+
+.foot-2 h5 {
+    color: darkgrey;
+}
+
+.Amazon-img {
+    background-color: black;
+}
+
+#Amazon {
+    height: 50px;
+    width: 120px;
+    margin-left: 400px;
+    margin-top: -20px;
+}
+
+.Amazon-img:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.copyright:hover {
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+/* .statement {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+} */
+
+.footer-3 {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
